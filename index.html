@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator Chrome Extension</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.js" integrity="sha512-BbVEDjbqdN3Eow8+empLMrJlxXRj5nEitiCAK5A1pUr66+jLVejo3PmjIaucRnjlB0P9R3rBUs3g5jXc8ti+fQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">  </head>
+  <body>
+    <main>
+      <div class="container">
+        <header>
+          <h1>CALCULATOR</h1>
+        </header>
+        <div class="border">
+          <input id="input-el" type="text" placeholder="ENTER" disabled="disabled">
+          <div class="grid">
+            <button id="ac-btn">AC</button>
+            <button id="clear-btn">C</button>
+            <button id="sign-btn">&#177;</button>  <!-- plus minus sign -->
+            <button id="div-btn">&#247;</button>  <!-- division sign -->
+            <button id="seven-btn">7</button>
+            <button id="eight-btn">8</button>
+            <button id="nine-btn">9</button>
+            <button id="mult-btn">&#215;</button>  <!-- multiplication sign -->
+            <button id="four-btn">4</button>
+            <button id="five-btn">5</button>
+            <button id="six-btn">6</button>
+            <button id="sub-btn">&#8722;</button>   <!-- minus sign -->
+            <button id="one-btn">1</button>
+            <button id="two-btn">2</button>
+            <button id="three-btn">3</button>
+            <button id="add-btn">&#43;</button>  <!-- addition sign -->
+            <div class="last-row">
+              <button id="zero-btn">0</button>
+              <button id="decimal-btn">.</button>
+              <button id="equals-btn">&#61;</button>  <!-- equal sign -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="index.js"></script>
+    </main>
+  </body>
+</html>

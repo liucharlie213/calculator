@@ -1,0 +1,78 @@
+body {
+  background-color: #1e3250;
+  font-family: 'Arvo', serif;
+  color: white;
+  margin: 0px;
+}
+
+header {
+  font-size: 17px;
+}
+
+button {
+  font-family: 'Arvo', serif;
+  font-size: 20px;
+  color: #1e3250;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 50%;
+  border-color: lightsteelblue
+}
+
+#zero-btn {
+  width: 105px;
+  border-radius: 50px
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+#input-el {
+  height: 50px;
+  width: 200px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: lightsteelblue;
+  background-color: white;
+  border-radius: 100px;
+  margin-bottom: 20px;
+  padding-left: 18px;
+  font-size: 20px;
+  font-family: 'Arvo', serif;
+  color: #1e3250;
+
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  column-gap: 5px;
+  row-gap: 5px;
+}
+
+.last-row {
+  display: grid;
+  grid-template-columns: 105px 50px 50px;
+  column-gap: 5px;
+  row-gap: 5px;
+}
+
+.border {
+  border-style: solid;
+  border-width: 5px;
+  border-color:lightsteelblue;
+  border-radius: 20px;
+  padding: 20px;
+}
