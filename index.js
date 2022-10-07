@@ -21,23 +21,6 @@ const decimalBtn = document.getElementById("decimal-btn");
 
 const inputEl = document.getElementById("input-el");
 
-// let answer = "";
-// let sum = 0;
-
-// addBtn.addEventListener("click", function() {
-//   const inputVal = parseInt(inputEl.value);
-//   inputEl.value = "";
-//   console.log(inputVal);
-//   console.log(add(inputVal));
-//   // inputEl.value = add(inputVal);
-// })
-
-// function add(number) {
-//   sum += number;
-//   console.log("wow");
-//   return sum;
-// }
-
 equalsBtn.addEventListener("click", function() {
 
   let equation = [];
@@ -65,34 +48,6 @@ equalsBtn.addEventListener("click", function() {
 
   inputEl.value = math.evaluate(equationStr);
 })
-
-// let operators = {
-//   "+": function(x, y) {
-//     return x + y;
-//   },
-  
-//   "−": function(x, y) {
-//     return x - y;
-//   },
-  
-//   "x": function(x, y) {
-//     return x * y;
-//   },
-
-//   "÷": function(x, y) {
-//     return x / y;
-//   }
-// }
-
-// function isNumber(arr) {
-//   let valid = true;
-//   for (let i = 0; i < arr.length; i++) {
-//     if (isNaN(arr[i])) {
-//       valid = false;
-//     }
-//     return valid;
-//   }
-// }
 
 addBtn.addEventListener("click", function() {
   if (inputEl.value != "" && validOperator()) {
